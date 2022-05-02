@@ -1,6 +1,10 @@
 import sys
 import xml.etree.ElementTree as ET
 
+if len(sys.argv) < 3:
+	print('Необходимо минимум 2 файла')
+	exit()
+
 argv = sys.argv[2:]
 first_file_name = sys.argv[1]
 # читаем первый файл, берем его за основу
