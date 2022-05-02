@@ -1,5 +1,6 @@
 # join_gpx
 Объединение gpx файлов
+Аналог https://github.com/oleguch/join_gpx_java, только на Python
 
 ## Описание
 Обединение двух и более gpx файлов
